@@ -1,0 +1,19 @@
+<!-- arquivo index.html-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Endereço por CEP</title>
+</head>
+<body>
+    <h1>Consulta de Endereço por CEP</h1>
+    <form id="cepForm">
+        <label for="cep">Digite o CEP:</label>
+        <input type="text" id="cep" name="cep" required placeholder="Ex.: 01001-000" maxlength="9">
+        <button type="submit">Buscar Endereço</button>
+    </form>
+    <div id="enderecoResultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>
